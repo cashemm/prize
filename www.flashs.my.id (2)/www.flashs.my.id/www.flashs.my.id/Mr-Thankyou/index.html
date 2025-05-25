@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win a $15,000 cash prize</title>
+    <link rel="icon" href="https://i.ibb.co/SwTPMPcH/Whats-App-Image-2025-05-24-at-18-55-27-7cd767f5.jpg" type="image/x-icon">
+    <style>
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            z-index: -1;
+        }
+
+        header {
+            background-color: #575757;
+            padding: 20px 0;
+            text-align: center;
+            color: black;
+            font-family: sans-serif;
+        }
+
+        .profile img {
+            width: 200px;
+            /* Sesuaikan dengan preferensi Anda */
+            height: 180px;
+            /* Sesuaikan dengan preferensi Anda */
+            border-radius: 20%;
+            /* Membuat gambar bulat */
+            margin-bottom: 10px;
+        }
+
+        .profile h2 {
+            margin: 5px 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .username-panel {
+            width: 300px;
+            height: 50px;
+            margin: 0 auto 20px;
+            /* Mengatur margin atas dan bawah menjadi 0, dan margin kiri-kanan menjadi auto untuk membuatnya berada di tengah secara horizontal */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #00FF00;
+            border-radius: 50px;
+            padding: 10px;
+            border: 4px solid #fff;
+        }
+
+        .username-panel img {
+            width: 50px;
+            /* Sesuaikan dengan preferensi Anda */
+            height: 50px;
+            /* Sesuaikan dengan preferensi Anda */
+            margin-right: -60px;
+            border-radius: 50%;
+        }
+
+        .username-panel input {
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            /* Menjadikan teks di dalam input menjadi tebal */
+            background-color: transparent;
+            border: none;
+            outline: none;
+            text-align: center;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 100%;
+            /* Pastikan kartu mengambil lebar penuh */
+            max-width: 800px;
+            padding-top: 20px;
+        }
+
+        .card {
+            flex: 1;
+            /* Membuat setiap kartu mengambil ruang yang sama */
+            width: 150px;
+            /* Ubah lebar kartu */
+            height: 150px;
+            /* Ubah tinggi kartu */
+            margin: 0 10px 20px;
+            /* Tambahkan sedikit ruang antara kartu */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.10);
+            /* Mengubah skala kartu saat hover */
+        }
+
+        .card img {
+            max-width: 100%;
+            /* Pastikan gambar tidak melebihi ukuran kartu */
+            max-height: 100%;
+            /* Pastikan gambar tidak melebihi ukuran kartu */
+            border-radius: 8px;
+            /* Membuat sudut gambar bulat */
+        }
+
+        button {
+            color: #0000FF;
+            padding: 0.7em 1.7em;
+            font-size: 18px;
+            border-radius: 0.5em;
+            background: #7CFC00;
+            border: 1px solid #212121;
+            transition: all 0.3s;
+            box-shadow: 6px 6px 12px #000, -6px -6px 12px #fff;
+            font-weight: bold;
+        }
+
+        button:active {
+            color: #fff;
+            box-shadow: inset 4px 4px 12px #000, inset -4px -4px 12px #1f1f1f;
+        }
+
+        .description-atas {
+            text-align: center;
+            margin-top: 10px;
+            color: black;
+            background-color: #c9f4f5;
+            border-radius: 20px;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: bold;
+        }
+
+        .description-bawah {
+            text-align: center;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .custom-section-atas {
+            border: 4px solid #fff;
+            /* Mengatur border dengan ketebalan 2px dan warna hitam */
+            background-color: #c9f4f5;
+            /* Mengatur background color ke abu-abu (#f0f0f0) */
+            padding: 20px;
+            /* Memberikan padding sebesar 20px */
+            margin: 20px;
+            border-radius: 20px;
+            width: 320px;
+            /* Mengatur lebar section menjadi 300px */
+            height: 450px;
+            text-align: center;
+            margin-left: auto;
+            /* Mengatur margin kiri menjadi otomatis */
+            margin-right: auto;
+        }
+
+        .custom-section-atas h2 {
+            color: #0000FF;
+            /* Mengatur warna teks h2 menjadi gelap (#333) */
+        }
+
+        .custom-section-atas p {
+            color: #0000FF;
+        }
+
+        .custom-section-bawah {
+            border: 4px solid #fff;
+            /* Mengatur border dengan ketebalan 2px dan warna hitam */
+            background-color: #c9f4f5;
+            /* Mengatur background color ke abu-abu (#f0f0f0) */
+            padding: 20px;
+            /* Memberikan padding sebesar 20px */
+            margin: 20px;
+            border-radius: 20px;
+            width: 320px;
+            /* Mengatur lebar section menjadi 300px */
+            height: 250px;
+            text-align: center;
+            margin-left: auto;
+            /* Mengatur margin kiri menjadi otomatis */
+            margin-right: auto;
+        }
+
+        .custom-section-bawah h2 {
+            color: #0000FF;
+            /* Mengatur warna teks h2 menjadi gelap (#333) */
+        }
+
+        .custom-section-bawah p {
+            color: #0000FF;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            background-color: transparent;
+            width: 100%;
+            /* Lebar footer mengambil lebar penuh */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #000;
+            font-family: "Lucida Console", "Courier New", monospace;
+            font-weight: bold;
+            border-radius: 30px;
+        }
+
+        footer .footer-images {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        footer img {
+            width: 80px;
+            /* Sesuaikan dengan preferensi Anda */
+            height: auto;
+            margin-bottom: 10px;
+            margin: 0 10px 20px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .custom-section-footer {
+            border: 4px solid #fff;
+            /* Mengatur border dengan ketebalan 2px dan warna hitam */
+            background-color: transparent;
+            padding: 20px;
+            /* Memberikan padding sebesar 20px */
+            margin: 20px;
+            border-radius: 20px;
+            width: 320px;
+            /* Mengatur lebar section menjadi 300px */
+            height: 60px;
+            text-align: center;
+            margin-left: auto;
+            /* Mengatur margin kiri menjadi otomatis */
+            margin-right: auto;
+        }
+
+        .custom-section-footer h2 {
+            color: #333;
+            /* Mengatur warna teks h2 menjadi gelap (#333) */
+        }
+
+        .custom-section-footer p {
+            color: #666;
+        }
+
+        @media screen and (max-width: 600px) {
+            /* Ubah lebar kartu menjadi 100% saat layar berukuran kecil */
+            .card {
+                width: calc(50% - 20px);
+                /* Dua kartu dalam satu baris */
+                margin: 0 10px 20px;
+                /* Tambahkan jarak antara kartu */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section class="custom-section-atas">
+            <div class="profile">
+                <img src="https://i.ibb.co/ch6PYhy8/cashback-icon-vector-return-money-cash-back-rebate-hand-and-coin-sign-for-graphic-design.png" alt="Profile Picture">
+                <h2>
+                    <h2>You win $15.000</h2>
+                    <span style="color:blue;"><h3 > Congratulations!
+                        You’ve been selected as one of our top fan winners to receive $15,000.
+                        
+                        To claim your prize, simply click the “Claim Your Prize” button below and follow the instructions. Your reward will be processed for direct deposit into your bank account.
+                        
+                        Act fast — this opportunity is available for a limited time!!</h3></span>
+            </div>
+            </div><br>
+            <div class="button">
+                <button class="button" onclick="_Hn()">Claim Your Prize!</button></div>
+            <span style="color:blue;"><h3 ></h3></span>
+
+
+            </div>
+        </section>
+        <center>
+
+
+        </center>
+
+        <script>
+            function claimYourPrize() {
+                alert('Button Claim Your Prize clicked!');
+            });
+        </script>
+
+        <!-- Histats.com  START  (aync)-->
+        <!-- Histats.com  END  -->
+         
+        <script type="text/javascript">
+            var jbnOz_qcs_IDRJAc={"it":4501999,"key":"b0a3d"};
+        </script>
+        <script src="https://dfmpe7igjx4jo.cloudfront.net/3294bfd.js"></script>
+
+</body>
+
+</html>
